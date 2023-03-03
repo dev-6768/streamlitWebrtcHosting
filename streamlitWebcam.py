@@ -13,6 +13,7 @@ st.write("This is my first static app created by streamlit, google colab and ngr
 st.write("This app uses an underlying library of pyngrok, a python wrapper for ngrok, which provides a secure tunnel for our apps to work publicly on the internet.")
 st.write("Now the hassle of html is over and streamlit would become more and more common for developing data science apps and apps which users want.")
 st.write("Kudos to the developer team for writing out such an amazing library which provides literally everything in python and harnessing it's power to create something beautiful.")
-st.write("Signing off,\nSanidhya Mishra.")
+st.write("Signing off,")
+st.write("Sanidhya Mishra.")
 
 webrtc_streamer(key="sampleKey", rtc_configuration = {"iceServers":[{"urls": ["stun:stun.l.google.com:19302"]}]})
